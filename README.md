@@ -1,5 +1,6 @@
 # slugnetbot
 > a helloworld botnet client with a web interface
+[![Build Status](https://travis-ci.org/slugbyte/slugnetbot.svg?branch=master)](https://travis-ci.org/slugbyte/slugnetbot)
 
 ![wiggly blob drawing](./src/assets/readme-header.png)
 
