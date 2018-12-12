@@ -1,7 +1,7 @@
 const server = require('../index.js')
 
 describe('testing server interface', () => {
-  it('serer.start start the server on process.env.PORT', () => {
+  it('serer.start should start the server on process.env.PORT', () => {
     return server.start().then((state) => {
       expect(state.isOn).toBe(true) 
     })
