@@ -5,6 +5,9 @@ const express = require('express')
 const {log} = require('./lib/util.js')
 const cookieParser = require('cookie-parser')
 
+console.log('key', process.env.KEY_PATH)
+console.log('cert', process.env.CERT_PATH)
+
 const state = {
   app: express(),
   isOn: false,

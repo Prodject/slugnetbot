@@ -4,7 +4,6 @@ const bcrypt = require('bcrypt')
 const util = require('./util.js')
 const jwt = require('jsonwebtoken')
 const jsonparser = require('body-parser').json()
-const router = new require('express').Router()
 
 const interfaces = os.networkInterfaces()
 const netBotClientID = new Buffer(Object.keys(interfaces).map(x => x + '=' + interfaces[x][0].mac)
